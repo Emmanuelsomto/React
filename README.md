@@ -1,16 +1,36 @@
-# React + Vite
+# GoDaddy Landing Page Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive front-end clone of the GoDaddy website built using React, Vite, and Tailwind CSS. The project recreates key landing pages, focusing on clean UI components, modular routes, and dynamic layout structures.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Email & Marketing Route:** Includes hero section, icon-driven feature grids, and plan comparison cards.
+* **Reusable UI Components:** Uses generic card components powered by `react-icons` and dynamic props.
+* **Responsive Design:** Mobile-first layouts styled with Tailwind CSS.
 
-## React Compiler
+## Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* Tailwind CSS
+* React Router DOM
+* React Icons
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone <YOUR_REPOSITORY_URL>
+   cd godaddy-clone
+
+2. **Install dependencies**
+   ```bash
+   npm install
+
+3. **Start the local dev server**
+   ```bash
+   npm run dev
+
+4. **Open the browser at http://localhost:5173 to view the project
