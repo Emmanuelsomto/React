@@ -3,7 +3,6 @@ import { FaEnvelope, FaBullhorn, FaShareAlt } from "react-icons/fa";
 import FeatureCard from "../Components/FeatureCard";
 import { motion } from "motion/react";
 import Pricing from "../Components/Pricing";
-import { title } from "motion/react-client";
 
 const features = [
   {

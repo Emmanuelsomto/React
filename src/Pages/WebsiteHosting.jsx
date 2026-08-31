@@ -61,7 +61,7 @@ export default function Website() {
         </section>
 
         <section className="border border-slate-300 bg-white px-12 py-14 rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold mb-8">Ultimate</h2>
+          <h2 className="text-3xl font-bold mb-8">Ultimate</h2>
           <hr className="mb-4 text-slate-400" />
           <p className="text-lg font-semibold text-slate-900 mb-6 font-poppins">
             High-traffic sites & stores

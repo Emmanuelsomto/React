@@ -67,7 +67,7 @@ export default function Footer() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="grid grid-cols-2 md:grid-cols-3 gap-16 md:gap-12 mx-24 mb-12 mt-10"
+        className="grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-12 mx-24 mb-12 mt-10"
       >
         <section className="flex flex-col gap-3">
           <p className="font-bold text-lg">About GoDaddy</p>
