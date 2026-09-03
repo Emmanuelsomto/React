@@ -17,7 +17,7 @@ export default function Navbar() {
           <Link
             to="/"
             onClick={closeMenu}
-            className="flex items-center gap-2 font-black text-2xl font-serif shrink-0"
+            className="flex items-center font-black text-2xl font-serif shrink-0"
           >
             <img src={godaddylogo} alt="GoDaddy Logo" className="w-6 h-6" />
             <span>GoDaddy</span>
