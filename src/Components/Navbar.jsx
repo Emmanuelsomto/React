@@ -11,7 +11,8 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-slate-300 shadow-md">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-6">
+      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-6
+      ">
         <div className="flex items-center gap-6">
           <Link
             to="/"
