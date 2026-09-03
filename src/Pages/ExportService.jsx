@@ -41,7 +41,7 @@ export default function ExportService() {
               Tailored website builds designed around brand goals.
             </p>
             <p className="text-base font-medium text-slate-700 font-poppins">
-              Responsive alyout, custom branding, content upload, mobile
+              Responsive layout, custom branding, content upload, mobile
               optimizimation.
             </p>
           </div>
@@ -109,6 +109,7 @@ export default function ExportService() {
               src={testimonial}
               alt="testimonial"
               className="w-16 h-16 object-cover rounded-full mb-6"
+              loading="lazy"
             />
             <p className="font-medium text-lg tracking-tight mb-6">
               <span className="text-2xl">"</span> Handling off our website
@@ -127,6 +128,7 @@ export default function ExportService() {
               src={testimonials}
               alt="More testimonials"
               className="w-16 h-16 object-cover rounded-full mb-6"
+              loading="lazy"
             />
             <p className="font-medium text-lg tracking-tight mb-6">
               <span className="text-2xl">"</span> Migration and technical SEO
@@ -145,6 +147,7 @@ export default function ExportService() {
               src={testimonialpics}
               alt="additonal content"
               className="w-16 h-16 object-cover rounded-full mb-6"
+              loading="lazy"
             />
             <p className="font-medium text-lg tracking-tight mb-6">
               <span className="text-2xl">"</span> I had a vision for my brand

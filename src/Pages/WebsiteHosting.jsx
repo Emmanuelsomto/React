@@ -81,7 +81,7 @@ export default function Website() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{duration: 0.8, ease: "easeOut"}}
-        className="flex flex-col md:flex-row justify-center items-center gap-12 mx-16">
+        className="flex flex-col md:flex-row justify-center items-center gap-12 mx-6">
         <section className="border border-slate-300 bg-white px-12 py-10 shadow-lg rounded-lg">
           <h3 className=" text-base md:text-lg font-medium mb-8 font-poppins text-black tracking-tighter">
             " Build a modern site in minutes with customizable templates,
