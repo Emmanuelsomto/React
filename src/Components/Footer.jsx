@@ -13,7 +13,7 @@ const socialLinks = [
 export default function Footer() {
   return (
     <>
-      <div className="mt-44">
+      <div className="mt-24">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -67,7 +67,7 @@ export default function Footer() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-12 mx-24 mb-12 mt-10"
+        className="grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-12 mx-8 mb-10 mt-8"
       >
         <section className="flex flex-col gap-3">
           <p className="font-bold text-lg">About GoDaddy</p>
@@ -219,7 +219,7 @@ export default function Footer() {
       </motion.div>
       <hr className="text-slate-400" />
 
-      <p className="max-w-6xl mx-8 my-8 font-normal text-base">
+      <p className="max-w-6xl mx-8 my-8 font-normal text-base tracking-tighter">
         CopyRight &copy; 1999 -2026 GoDaddy Operating Company. LLC. AllRights
         Reserved. The GoDaddy word mark is a registered trademark of GoDaddy
         Operating Company. LLC in the US and other countries. The 'GO' logo is a

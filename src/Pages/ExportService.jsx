@@ -7,12 +7,12 @@ import testimonialpics from "../assets/testimonialpics.jpg";
 export default function ExportService() {
   return (
     <>
-      <div className="mt-44">
+      <div className="mt-32">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col justify-center items-center mx-16"
+          className="flex flex-col justify-center items-center mx-8"
         >
           <h3 className="font-bold text-center text-2xl md:text-3xl mb-12 tracking-tight font-poppins">
             Let our experts build and grow your online presence
@@ -90,20 +90,18 @@ export default function ExportService() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col justify-center items-center gap-8 mx-8"
+          className="flex flex-col justify-center items-center gap-8 mx-3.5"
         >
           <h3 className="text-2xl md:text-3xl font-bold font-poppins text-center">
             Tell our team about your brand goals and requirements
           </h3>
-          <p className="text-center text-base font-medium">
-            Our specialists draft and build, and we push it live.
-          </p>
-          <p className="text-center text-base font-medium">
-            You give feedback, approve the build, and we push it live.
+          <p className="text-center text-base font-medium tracking-tight">
+            Our specialists draft and build, and we push it live.You give
+            feedback, approve the build, and we push it live.
           </p>
         </motion.section>
 
-        <section className="flex flex-col md:flex-row justify-center items-center gap-8 mx-6 my-32">
+        <section className="flex flex-col md:flex-row justify-center items-center gap-8 mx-6 my-16">
           <div className="border border-slate-300 bg-white px-12 py-16 rounded-lg shadow-lg">
             <img
               src={testimonial}
@@ -111,14 +109,14 @@ export default function ExportService() {
               className="w-16 h-16 object-cover rounded-full mb-6"
               loading="lazy"
             />
-            <p className="font-medium text-lg tracking-tight mb-6">
+            <p className="font-medium text-lg tracking-tighter mb-6">
               <span className="text-2xl">"</span> Handling off our website
               redesign to the Expert Services team was the best decision we
               made. Our bounce rate dropped instantly, and mobile traffic is up
               by 40%. Clean execution and zero stress.{" "}
               <span className="text-2xl">"</span>
             </p>
-            <p className="font-medium text-slate-700 text-base">
+            <p className="font-medium text-slate-700 text-base tracking-tight">
               - Marcus T., E-commerce Founder
             </p>
           </div>
@@ -130,14 +128,14 @@ export default function ExportService() {
               className="w-16 h-16 object-cover rounded-full mb-6"
               loading="lazy"
             />
-            <p className="font-medium text-lg tracking-tight mb-6">
+            <p className="font-medium text-lg tracking-tighter mb-6">
               <span className="text-2xl">"</span> Migration and technical SEO
               felt daunting until we brought in an expert guide. They set up our
               custom domain, optimized our core web vitals , and kept everything
               running smooth with no downtime.
               <span className="text-2xl">"</span>
             </p>
-            <p className="font-medium text-slate-700 text-base">
+            <p className="font-medium text-slate-700 text-base tracking-tight">
               - Sarah L., Digital Agency Lead
             </p>
           </div>
@@ -149,13 +147,13 @@ export default function ExportService() {
               className="w-16 h-16 object-cover rounded-full mb-6"
               loading="lazy"
             />
-            <p className="font-medium text-lg tracking-tight mb-6">
+            <p className="font-medium text-lg tracking-tighter mb-6">
               <span className="text-2xl">"</span> I had a vision for my brand
               but zero time to code it out . They took my rough wireframe ideas
               and built a responsive landing page that launched ahead of
               schedule. Highly recommended! <span className="text-2xl">"</span>
             </p>
-            <p className="font-medium text-slate-700 text-base">
+            <p className="font-medium text-slate-700 text-base tracking-tight">
               - DavidK., SaaS Product Creator
             </p>
           </div>

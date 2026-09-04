@@ -58,18 +58,18 @@ const pricing = [
 export default function Email() {
   return (
     <>
-      <div className="mt-44">
+      <div className="mt-32">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col justify-center items-center mx-16"
+          className="flex flex-col justify-center items-center mx-8"
         >
-          <h1 className="font-bold text-center text-2xl md:text-3xl mb-12 tracking-tight font-poppins">
+          <h1 className="font-bold text-center text-2xl md:text-3xl mb-8 tracking-tight font-poppins">
             Connect with your audience using Professional Email & Marketing
             tools
           </h1>
-          <h3 className="text-center mb-12 text-base font-semibold tracking-tight">
+          <h3 className="text-center mb-8 text-base font-semibold tracking-tight">
             Build customer trust with custom domain-based email addressess and
             targeted marketing campaigns
           </h3>
@@ -82,7 +82,7 @@ export default function Email() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col md:flex-row justify-center items-center gap-8 mx-12 mt-24"
+          className="flex flex-col md:flex-row justify-center items-center gap-8 mx-6 mt-24"
         >
           {features.map((feature) => (
             <FeatureCard
@@ -107,7 +107,7 @@ export default function Email() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col md:flex-row justify-center items-center gap-8 mt-16 mx-12"
+          className="flex flex-col md:flex-row justify-center items-center gap-8 mt-8 mx-6"
         >
           {pricing.map((item) => (
             <Pricing

@@ -61,12 +61,12 @@ export default function Commerce() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex flex-col justify-center items-center mt-44 mx-12"
+        className="flex flex-col justify-center items-center mt-32 mx-8"
       >
-        <h1 className="text-3xl md:text-4xl font-bold md:font-extrabold tracking-tight font-poppins mb-12 text-center">
+        <h1 className="text-3xl md:text-4xl font-bold md:font-extrabold tracking-tight font-poppins mb-8 text-center">
           Sell everywhere with lower fess
         </h1>
-        <p className="text-base font-semibold tracking-tight mb-12 text-center">
+        <p className="text-base font-semibold tracking-tight mb-8 text-center">
           Accept payments in person, online, or on the go with zero hidden setup
           costs and industry-leading processing Rates.
         </p>
@@ -109,7 +109,7 @@ export default function Commerce() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex flex-col md:flex-row justify-center items-center gap-8 mx-12 my-16 "
+        className="flex flex-col md:flex-row justify-center items-center gap-8 mx-12 my-10 "
       >
         {posTerminal.map((pos) => (
           <POS

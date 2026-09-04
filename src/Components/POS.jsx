@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function POS({ title, description, price }) {
   return (
-    <div className="border border-slate-300 bg-white px-12 py-16 rounded-lg shadow-lg">
+    <div className="border border-slate-300 bg-white px-6 py-12 rounded-lg shadow-lg">
       <h3 className="font-bold text-lg mb-6 font-poppins tracking-tight">
         {title}
       </h3>

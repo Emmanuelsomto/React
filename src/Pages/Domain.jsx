@@ -6,7 +6,7 @@ import { motion } from "motion/react";
 export default function Domain() {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-12 mx-auto max-w-7xl p-8 mt-44 mb-16">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-12 mx-auto max-w-7xl p-8 mt-24 mb-6">
         <motion.section
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -43,7 +43,7 @@ export default function Domain() {
         </motion.section>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row-reverse gap-12 mx-auto p-8 justify-center items-center mb-16">
+      <div className="flex flex-col-reverse md:flex-row-reverse gap-12 mx-auto p-8 justify-center items-center mb-6">
         <motion.section
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}

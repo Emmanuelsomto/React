@@ -60,17 +60,17 @@ export default function More() {
   };
   return (
     <>
-      <div className="mt-44">
+      <div className="mt-32">
         <motion.section
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col justify-center items-center mx-12 mb-24"
+          className="flex flex-col justify-center items-center mx-8 mb-24"
         >
           <h3 className="font-bold font-poppins text-2xl md:text-3xl text-center mb-8">
             Export Compliance & Trade Controls
           </h3>
-          <p className="text-center text-slate-700 text-base tracking-tight">
+          <p className="text-center text-slate-700 text-base tracking-tighter">
             Ensuring global regulatory adherence, security, and restricted
             country compliance across all services.
           </p>

@@ -8,17 +8,17 @@ export default function Website() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="mt-44 text-center mx-12"
+        className="mt-34 text-center mx-6"
       >
-        <h1 className="text-3xl md:text-4xl font-bold md:font-extrabold mb-12 font-poppins tracking-tight">
+        <h1 className="text-3xl md:text-4xl font-bold md:font-extrabold mb-6 font-poppins tracking-tight">
           Fast, Secure, and Reliable Web Hosting.
         </h1>
-        <p className="text-base font-medium mb-12 tracking-tight">
+        <p className="text-base font-medium mb-8 tracking-tight">
           Bring your business online with{" "}
           <span className="text-indigo-700 font-bold text-lg"> 99.9% </span>{" "}
           uptime, free SSL certificate, and one-click WordPress installs.
         </p>
-        <button className="border px-8 py-4 mb-12 rounded-md bg-black text-white font-semibold cursor-pointer hover:bg-slate-700 active:bg-gray-800 transition-all ease-in-out duration-300">
+        <button className="border px-8 py-4 mb-4 rounded-md bg-black text-white font-semibold cursor-pointer hover:bg-slate-700 active:bg-gray-800 transition-all ease-in-out duration-300">
           <Link to="/more">Explore Hosting Plan</Link>
         </button>
       </motion.div>
@@ -27,8 +27,8 @@ export default function Website() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{duration: 0.8, ease: "easeOut"}}
-        className="flex flex-col md:flex-row justify-center items-center gap-8 p-8 mt-12 mb-24 mx-4">
-        <section className="border border-slate-300 bg-white px-12 py-15 rounded-lg shadow-lg">
+        className="flex flex-col md:flex-row justify-center items-center gap-8 p-8 mt-12 mb-12 mx-2">
+        <section className="border border-slate-300 bg-white px-6 py-10 rounded-lg shadow-lg">
           <h2 className="text-3xl font-bold mb-8">Starter</h2>
           <hr className="mb-4 text-slate-400" />
           <p className="text-lg font-semibold text-slate-900 font-poppins mb-6 tracking-tight">
@@ -44,7 +44,7 @@ export default function Website() {
           </Link>
         </section>
 
-        <section className="border border-slate-300 bg-white px-12 py-14 rounded-lg shadow-lg">
+        <section className="border border-slate-300 bg-white px-6 py-10 rounded-lg shadow-lg">
           <h2 className="text-3xl font-bold mb-8">Deluxe</h2>
           <hr className="mb-4 text-slate-400" />
           <p className="text-lg font-semibold text-slate-900 mb-6 font-poppins tracking-tight">
@@ -60,7 +60,7 @@ export default function Website() {
           </Link>
         </section>
 
-        <section className="border border-slate-300 bg-white px-12 py-14 rounded-lg shadow-lg">
+        <section className="border border-slate-300 bg-white px-6 py-10 rounded-lg shadow-lg">
           <h2 className="text-3xl font-bold mb-8">Ultimate</h2>
           <hr className="mb-4 text-slate-400" />
           <p className="text-lg font-semibold text-slate-900 mb-6 font-poppins">
@@ -81,8 +81,8 @@ export default function Website() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{duration: 0.8, ease: "easeOut"}}
-        className="flex flex-col md:flex-row justify-center items-center gap-12 mx-6">
-        <section className="border border-slate-300 bg-white px-12 py-10 shadow-lg rounded-lg">
+        className="flex flex-col md:flex-row justify-center items-center gap-8 mx-6">
+        <section className="border border-slate-300 bg-white px-4 py-10 shadow-lg rounded-lg">
           <h3 className=" text-base md:text-lg font-medium mb-8 font-poppins text-black tracking-tighter">
             " Build a modern site in minutes with customizable templates,
             built-in SEO tools, and integrated online payments "
@@ -92,7 +92,7 @@ export default function Website() {
           </button>
         </section>
 
-        <section className="border border-slate-300 bg-white px-12 py-8.5 shadow-lg rounded-lg">
+        <section className="border border-slate-300 bg-white px-4 py-8.5 shadow-lg rounded-lg">
           <h3 className="text-base md:text-lg font-medium mb-10 font-poppins text-black tracking-tighter">
             " Optimized speed, automatic updates, and daily backups built
             specifically for custom WordPress sites "

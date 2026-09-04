@@ -62,12 +62,12 @@ const catergories = [
 export default function HelpCenter() {
   return (
     <>
-      <div className="mt-44">
+      <div className="mt-32">
         <motion.section
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col justify-center items-center gap-8 mx-6 mb-24"
+          className="flex flex-col justify-center items-center gap-8 mx-2 mb-24"
         >
           <h3 className="text-2xl md:text-4xl font-bold font-poppins mx-6 text-center tracking-tighter">
             How can we help you today ?
