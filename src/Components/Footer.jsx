@@ -22,23 +22,31 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-center items-center mx-auto gap-16 lg:gap-24">
             <div className="flex flex-col">
-              <h3 className="font-medium text-lg md:text-2xl mb-4">
-                Sign up for news and special offers
-              </h3>
-              <input
-                type="email"
-                className="border px-4 py-2 rounded-sm w-full h-full mb-4"
-                placeholder="Email address"
-                required
-                minLength="3"
-                maxLength="36"
-              />
-              <button
-                type="submit"
-                className="bg-black text-white font-semibold py-3 px-8 rounded-md hover:bg-gray-700 active:text-gray-800 cursor-pointer"
-              >
-                Sign Up
-              </button>
+              <form action="submit" autoComplete="on" className="flex flex-col">
+                <label
+                  htmlFor="email"
+                  className="font-medium text-lg md:text-2xl mb-4"
+                >
+                  Sign up for news and special offers
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  autoComplete="email"
+                  className="border px-4 py-2 rounded-sm w-full h-full mb-4"
+                  placeholder="Email address"
+                  required
+                  minLength="3"
+                  maxLength="36"
+                />
+                <button
+                  type="submit"
+                  className="bg-black text-white font-semibold font-poppins py-3 px-8 rounded-md hover:bg-gray-700 active:text-gray-800 cursor-pointer"
+                >
+                  Sign Up
+                </button>
+              </form>
             </div>
             <div className="flex flex-col max-w-xl">
               <p className="font-medium text-center text-base mb-4">
@@ -206,15 +214,21 @@ export default function Footer() {
           <img src={godaddylogo} alt="GoDaddy Logo" className="w-6 h-6" />
           <span>GoDaddy</span>
         </div>
-        <select className="items-center font-normal border px-2 py-1 rounded-sm cursor-pointer">
-          <option>United States-English</option>
-          <option>United Kingdom-English</option>
-          <option>Chinese (Mandarin)</option>
+        <select
+          id="countries"
+          className="items-center font-normal border px-2 py-1 rounded-sm cursor-pointer"
+        >
+          <option id="countries">United States-English</option>
+          <option id="countries">United Kingdom-English</option>
+          <option id="countries">Chinese (Mandarin)</option>
         </select>
-        <select className="items-center font-normal border px-2 py-1 rounded-sm cursor-pointer">
-          <option>USD</option>
-          <option>EUR</option>
-          <option>GBP</option>
+        <select
+          id="currency"
+          className="items-center font-normal border px-2 py-1 rounded-sm cursor-pointer"
+        >
+          <option id="currency">USD</option>
+          <option id="currency">EUR</option>
+          <option id="currency">GBP</option>
         </select>
       </motion.div>
       <hr className="text-slate-400" />

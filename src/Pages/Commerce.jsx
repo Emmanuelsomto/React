@@ -84,7 +84,7 @@ export default function Commerce() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex flex-col md:flex-row justify-center items-center gap-8 my-24 mx-12"
+        className="flex flex-col md:flex-row justify-center items-center gap-8 my-24 mx-6"
       >
         {card.map((cards) => (
           <Cards
@@ -109,7 +109,7 @@ export default function Commerce() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex flex-col md:flex-row justify-center items-center gap-8 mx-12 my-10 "
+        className="flex flex-col md:flex-row justify-center items-center gap-8 mx-6 my-10 "
       >
         {posTerminal.map((pos) => (
           <POS
