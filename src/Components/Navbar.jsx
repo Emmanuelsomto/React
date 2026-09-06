@@ -11,8 +11,10 @@ export default function Navbar() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-slate-300 shadow-md">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-6
-      ">
+      <div
+        className="max-w-7xl mx-auto flex justify-between items-center px-6 py-6
+      "
+      >
         <div className="flex items-center gap-6">
           <Link
             to="/"
@@ -78,20 +80,6 @@ export default function Navbar() {
               Sign-In
             </Link>
           </div>
-
-          <Link to="/cart" onClick={closeMenu} className="flex items-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              className="w-6 h-6 text-slate-700 hover:text-black transition-colors"
-            >
-              <path d="M21 4H6.17l-.18-1.15A1 1 0 0 0 5 2H2v2h2.14l1.87 12.15A1 1 0 0 0 7 17h12v-2H7.86l-.31-2H19c.45 0 .84-.3.96-.73l2-7A1 1 0 0 0 21 3.99Zm-2.75 7H7.24l-.77-5h13.2l-1.43 5ZM8 18a2 2 0 1 0 0 4 2 2 0 1 0 0-4m9 0a2 2 0 1 0 0 4 2 2 0 1 0 0-4"></path>
-            </svg>
-          </Link>
-
           <button
             type="button"
             onClick={toggleMenu}

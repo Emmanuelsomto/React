@@ -9,7 +9,6 @@ import ExportService from "./Pages/ExportService";
 import More from "./Pages/More";
 import HelpCenter from "./Pages/HelpCenter";
 import SignIn from "./Pages/SignIn";
-import Cart from "./Pages/Cart";
 import Footer from "./Components/Footer";
 
 export default function App() {
@@ -27,7 +26,6 @@ export default function App() {
           <Route path="/more" element={<More />} />
           <Route path="/help-center" element={<HelpCenter />} />
           <Route path="/sign-in" element={<SignIn />} />
-          <Route path="/cart" element={<Cart />} />
         </Routes>
 
         <Footer />
